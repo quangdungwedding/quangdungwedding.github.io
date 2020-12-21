@@ -302,8 +302,8 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 !important;
   position: relative;
+  background-position: 0 !important;
   width: 100%;
   background-position-x: 50% !important;
 }
@@ -1851,3 +1851,16 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.show-married {
+  display: none;
+}
+.hide-married {
+  display: block;
+}
+.changedMarried .show-married {
+  display: block;
+}
+.changedMarried .hide-married {
+  display: none;
+}
